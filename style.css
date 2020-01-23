@@ -3,7 +3,7 @@
 /*!
 Theme Name: Cocoon Child
 Template:   cocoon-master
-Version:    1.0.4
+Version:    1.0.5
 */
 *{font-weight: normal !important;box-sizing:border-box;}
 a{cursor:pointer;transition: all .5s;}
@@ -274,7 +274,7 @@ select{
 
 /******************article*********************/
 h1.archive-title {
-    background:url(images/archive-title.png) repeat-x left bottom;
+    background:url(images/line-cat-title.png) repeat-x left bottom;
 	background-size: 100% 12px;
     padding: 15px 10px 20px;
     position: relative;
@@ -297,6 +297,7 @@ figure.wp-block-image figcaption{text-align:center;}
 .related-entry-heading{
 	background:url(images/line-related.png) repeat-x left bottom;
 	border-bottom: none;
+	padding-bottom: 10px;
 }
 .rect-vartical-card-4 .related-entry-card-wrap {
 	width: 23%;
@@ -320,12 +321,12 @@ figure.wp-block-image figcaption{text-align:center;}
 	position: absolute;
 	content: '';
 	display: block;
-	top: 18px;
+	top: 4px;
 	left: .2em;
 	z-index: 2;
-	width: 10px;
-	height: 11px;
-	background: url(https://6f2c8f7b-bf25-4a86-9b29-680f9e0dfa3d.app.getshifter.io:55302/wp-content/themes/cocoon-child-master/images/icon-arrow.png) no-repeat center top;
+	width: 8px;
+	height: 9px;
+	background: url(images/icon-arrow.png) no-repeat center top;
 	background-size: 100% 100%;
 }
 /************************************
@@ -378,6 +379,7 @@ figure.wp-block-image figcaption{text-align:center;}
 .entry-card-thumb, .widget-entry-card-thumb, .related-entry-card-thumb, .carousel-entry-card-thumb {float: none;margin: 0 auto 15px;width: 100%;max-width: 320px;}
 	.entry-card-content { margin-left: 0;width: 100%;}
 	.entry-card-title {font-size: 26px;}
+	.rect-vartical-card-4 .related-entry-card-wrap {width: 48%;}
 }	
 	
 /*480px以下*/
@@ -391,14 +393,13 @@ figure.wp-block-image figcaption{text-align:center;}
 	.entry-card-title:first-letter {font-size: 1.2em;}
 	.article h1:after {display: block;bottom: auto;left: 0;right: 0;top: -30px;margin: auto;}
 	.article h1 {text-align: center;font-size: 24px;padding: 15px 0 22px ;}
-	/*.article h2::after {margin: auto;left: 0;right: 0;bottom: auto;top: -12px;}*/
 	.article h2 {font-size: 22px;}
 	.article h3 {font-size: 18px;line-height: 140%;}
 	.sns-share.ss-col-5 a {width: 32%;}
+	#author_box-4 .author-widget-name {text-align: center;}
 	.author-box .author-thumb{float:none;width:100%;}
 	.author-box  .circle-image img {width: 120px;height:auto;display: block;margin: 0 auto 10px;}
-	.author-box .author-content {margin-left: 0;width: auto;margin: 0 10px;
-}
+	.author-box .author-content {margin-left: 0;width: auto;margin: 0 10px;}
 	.tagline{display:none;}
 	#footer-sp-h2{display:block;font-size:10px;line-height:130%;text-align:center;}
 	
