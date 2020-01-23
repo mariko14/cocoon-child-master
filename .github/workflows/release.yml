@@ -45,7 +45,7 @@ jobs:
     # please edit FILES_TO_ARCIVE to suit your project.
     - name: create archive
       env:
-        PACKAGE_NAME: "anyany-theme-child"
+        PACKAGE_NAME: "cocoon-child-master"
         FILES_TO_ARCIVE: "*.php *.md *.css *.txt *.png LICENSE phpcs.xml.dist inc/ js/ languages/ skins/ tmp-user/ fonts/ layouts/ images/ template-parts/"
       run: zip -r ${PACKAGE_NAME}.zip ${FILES_TO_ARCIVE}
 
@@ -54,7 +54,7 @@ jobs:
     # ghr - Easily ship your project to your user using Github Releases : https://deeeet.com/ghr/
     - name: upload
       env:
-        PACKAGE_NAME: "anyany-theme-child"
+        PACKAGE_NAME: "cocoon-child-master"
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         GOPATH: /home/runner/go
       run: |
