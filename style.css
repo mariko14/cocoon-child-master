@@ -3,10 +3,11 @@
 /*!
 Theme Name: Cocoon Child
 Template:   cocoon-master
-Version:    1.0.3
+Version:    1.0.4
 */
 *{font-weight: normal !important;box-sizing:border-box;}
-a{cursor:pointer;}
+a{cursor:pointer;transition: all .5s;}
+a:hover img{opacity: 0.6;}
 br.br480{display:none;}
 /******************header*********************/
 .header{position:relative;}
@@ -273,7 +274,7 @@ select{
 
 /******************article*********************/
 h1.archive-title {
-    background:url(images/line-h3.png) repeat-x left bottom;
+    background:url(images/archive-title.png) repeat-x left bottom;
 	background-size: 100% 12px;
     padding: 15px 10px 20px;
     position: relative;
@@ -293,6 +294,40 @@ figure.wp-block-image figcaption{text-align:center;}
 }
 #author_box-4 .author-widget-name:before,#author_box-4  .author-widget-name:after{background:#fff;}
 #footer-sp-h2{display:none;}
+.related-entry-heading{
+	background:url(images/line-related.png) repeat-x left bottom;
+	border-bottom: none;
+}
+.rect-vartical-card-4 .related-entry-card-wrap {
+	width: 23%;
+	margin: 0 1%;
+	transition: all .7s;
+	border-radius: 3px;
+}
+.rect-vartical-card-4 .related-entry-card-wrap:hover{
+	background: #8fd1ef;
+	color: #fff!important;
+}
+.rect-vartical-card .related-list {
+	justify-content:flex-start;-webkit-box-pack:start;-ms-flex-pack:start;-webkit-justify-content:flex-start;
+	align-items: stretch;-webkit-box-align:stretch;-ms-flex-align:stretch;-webkit-align-items:stretch;
+}
+.rect-vartical-card .related-entry-card-title{
+	position: relative;
+	padding-left: 15px;
+}
+.rect-vartical-card .related-entry-card-title::before {
+	position: absolute;
+	content: '';
+	display: block;
+	top: 18px;
+	left: .2em;
+	z-index: 2;
+	width: 10px;
+	height: 11px;
+	background: url(https://6f2c8f7b-bf25-4a86-9b29-680f9e0dfa3d.app.getshifter.io:55302/wp-content/themes/cocoon-child-master/images/icon-arrow.png) no-repeat center top;
+	background-size: 100% 100%;
+}
 /************************************
 ** レスポンシブデザイン用のメディアクエリ
 ************************************/
