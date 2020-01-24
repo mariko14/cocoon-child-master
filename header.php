@@ -108,11 +108,11 @@ if ( !defined( 'ABSPATH' ) ) exit; ?>
 <div id="header-container" class="header-container">
   <div class="header-container-in<?php echo get_additional_header_container_classes(); ?>">
     <header id="header" class="header<?php echo get_additional_header_classes(); ?> cf" itemscope itemtype="https://schema.org/WPHeader">
- <?php //キャッチフレーズがヘッダー上部のとき
-        if (is_tagline_position_header_top()) {
-           get_template_part('tmp/header-tagline');
-        } ?>
-      <div id="header-in" class="header-in wrap cf" itemscope itemtype="https://schema.org/WebSite">
+
+		<div class="tagline"><h2>シングルマザーなフリーランスデザイナーがひたすら移動して仕事して楽しんでるブログ</h2></div>
+
+
+		<div id="header-in" class="header-in wrap cf" itemscope itemtype="https://schema.org/WebSite">
 
        
 			
@@ -126,6 +126,7 @@ if ( !defined( 'ABSPATH' ) ) exit; ?>
 
         <?php //ロゴ後にコードを挿入するためのアクションフック
         do_action( 'wp_header_logo_after_open' ); ?>
+		<h2><span></span></h2>
 			  
 		  </div>
 		  <img src="/wp-content/themes/cocoon-child-master/images/header-photo-line.png" alt="" class="header-photo-line" width="800" height="88">

@@ -118,7 +118,7 @@ if ( !defined( 'ABSPATH' ) ) exit; ?>
     get_template_part('tmp-user/footer-insert');
   }
   ?>
-
+  <script src="<?php bloginfo('template_url'); ?>/js/scripts.js"></script> 
 </body>
 
 </html>
