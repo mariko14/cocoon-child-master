@@ -3,7 +3,7 @@
 /*!
 Theme Name: Cocoon Child
 Template:   cocoon-master
-Version:    1.0.6
+Version:    1.0.7
 */
 *{font-weight: normal !important;box-sizing:border-box;}
 a{cursor:pointer;transition: all .5s;}
@@ -360,6 +360,11 @@ display: block;
   -webkit-transform: translateY(4px);
   transform: translateY(4px);
   border-bottom: none;
+}
+#contact-form input[type="submit"].off{
+	background: #f0f0f0;
+	color: #d2d2d2;
+	border-bottom: none;
 }
 #check-area{display: block;margin: 0 auto;text-align: center;font-size: 1.1em;}
 #check-area label{padding:10px;}

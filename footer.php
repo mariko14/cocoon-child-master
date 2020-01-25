@@ -118,7 +118,8 @@ if ( !defined( 'ABSPATH' ) ) exit; ?>
     get_template_part('tmp-user/footer-insert');
   }
   ?>
-  <script src="<?php bloginfo('template_url'); ?>/js/scripts.js"></script> 
+    <script src="/wp-content/themes/cocoon-master/javascript.js"></script> 
+	<script src="/wp-content/themes/cocoon-child-master/js/scripts.js"></script> 
 </body>
 
 </html>
