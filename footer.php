@@ -40,7 +40,7 @@ if ( !defined( 'ABSPATH' ) ) exit; ?>
 
       <div id="footer-in" class="footer-in wrap cf">
 	
-		  <h2 id="footer-sp-h2">シングルマザーなフリーランスデザイナーが<br class="br480">ひたすら移動して仕事して楽しんでるブログ</h2> 
+		  <h2 id="footer-sp-h2">シングルマザーなフリーランスデザイナーが<br class="br480">ひたすら移動してノマドして楽しんでるブログ</h2> 
 		  
         <?php //フッターにウィジェットが一つも入っていない時とモバイルの時は表示しない
         if ( (is_active_sidebar('footer-left') ||

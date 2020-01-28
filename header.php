@@ -103,7 +103,7 @@ if ( !defined( 'ABSPATH' ) ) exit; ?>
   <div class="header-container-in<?php echo get_additional_header_container_classes(); ?>">
     <header id="header" class="header<?php echo get_additional_header_classes(); ?> cf" itemscope itemtype="https://schema.org/WPHeader">
 
-		<div class="tagline"><h2>シングルマザーなフリーランスデザイナーがひたすら移動して仕事して楽しんでるブログ</h2></div>
+		<div class="tagline"><h2>シングルマザーなフリーランスデザイナーがひたすら移動してノマドして楽しんでるブログ</h2></div>
 
 
 		<div id="header-in" class="header-in wrap cf" itemscope itemtype="https://schema.org/WebSite">
