@@ -110,29 +110,19 @@ if ( !defined( 'ABSPATH' ) ) exit; ?>
 
        
 			
-		  <div id="logo-area">
+		<a href="<?php echo home_url( 'whats-home' ); ?>" id="logo-area">
 		  <img src="/wp-content/themes/cocoon-child-master/images/title.png" alt="anywhere, anytime" class="logo-img" width="760" height="84">
 			  <?php //ロゴ前にコードを挿入するためのアクションフック
         do_action( 'wp_header_logo_before_open' ); ?>
 
-        <?php //ロゴタグの生成
-        generate_the_site_logo_tag(); ?>
-
-        <?php //ロゴ後にコードを挿入するためのアクションフック
-        do_action( 'wp_header_logo_after_open' ); ?>
-		<h2><span></span></h2>
+		<h1><?php bloginfo( 'name' ); ?></h1>
+		
 			  
 		  </div>
 		  <img src="/wp-content/themes/cocoon-child-master/images/header-photo-line.png" alt="" class="header-photo-line" width="800" height="88">
 		  
-        
 
-        <?php //キャッチフレーズがヘッダー下部のとき
-        if (is_tagline_position_header_bottom()) {
-           get_template_part('tmp/header-tagline');
-        } ?>
-
-      </div>
+      </a>
 
     </header>
 
