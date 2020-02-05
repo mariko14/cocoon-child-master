@@ -115,15 +115,9 @@ if ( !defined( 'ABSPATH' ) ) exit; ?>
 			  <?php //ロゴ前にコードを挿入するためのアクションフック
         do_action( 'wp_header_logo_before_open' ); ?>
 
-		<h1><?php bloginfo( 'name' ); ?></h1>
-		
-			  
-		  </div>
-		  <img src="/wp-content/themes/cocoon-child-master/images/header-photo-line.png" alt="" class="header-photo-line" width="800" height="88">
-		  
-
-      </a>
-
+			<h1><?php bloginfo( 'name' ); ?></h1>
+		</a>
+	    <img src="/wp-content/themes/cocoon-child-master/images/header-photo-line.png" alt="" class="header-photo-line" width="800" height="88">
     </header>
 
     <?php get_template_part('tmp/navi'); ?>
